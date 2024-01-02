@@ -1,5 +1,5 @@
 # Airbnb Safety
-Interactive map of Airbnb property listings overlayed with heat map of neighborhood-specific crime risk; Model to estimate Airbnb listing price based upon accommodations and local crime.
+This project provides an interactive map of Airbnb property listings overlayed with a heat map of neighborhood-specific crime risk.  Additionally, it provides a model to estimate Airbnb listing price based upon accommodations and local crime.
 
 ## Credits
 This project was created for the Georgia Tech Master of Analytics program.<br>

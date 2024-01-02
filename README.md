@@ -5,6 +5,7 @@ This project provides an interactive map of Airbnb property listings overlayed w
 
 ## Credits
 This project was created for the Georgia Tech Master of Analytics program.<br>
+
 **Course:** Data and Visual Analytics (CSE6242)<br>
 **Team:** Michael Crist, Albert Hsueh, Sergio Roca
 

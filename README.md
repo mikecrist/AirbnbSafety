@@ -1,6 +1,8 @@
 # Airbnb Safety
 This project provides an interactive map of Airbnb property listings overlayed with a heat map of neighborhood-specific crime risk.  Additionally, it provides a model to estimate Airbnb listing price based upon accommodations and local crime.
 
+**Project Report:** [Report](https://github.com/mikecrist/AirbnbSafety/blob/main/Report/Report_AirbnbSafety.pdf)
+
 ## Credits
 This project was created for the Georgia Tech Master of Analytics program.<br>
 **Course:** Data and Visual Analytics (CSE6242)<br>

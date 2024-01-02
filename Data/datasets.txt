@@ -1,0 +1,15 @@
+###########
+Airbnb Data
+###########
+
+http://insideairbnb.com/get-the-data.html 
+ 
+##########
+Crime Data
+##########
+
+Chicago:    https://data.cityofchicago.org/Public-Safety/Crimes-Map/dfnk-7re6 
+NYC:        https://data.cityofnewyork.us/Public-Safety/Citywide-Crime-Statistics/c5dk-m6ea, https://maps.nyc.gov/crime/, https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i  
+LA:         https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/data 
+SF:         https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783 
+Boston:     https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system

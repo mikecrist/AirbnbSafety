@@ -1,0 +1,40 @@
+---
+title: "Top Verifications and Amenities"
+output: html_notebook
+---
+
+Reads input files and writes output files in the directory where the below runs
+
+```{r}
+for (city in c("Boston","Chicago","LA","NY","SF")){
+    data <- read.csv(paste(city,"-Listings-Clean.csv", sep = ""))
+    print(head(data))
+    
+    verifications <- data %>%
+        distinct(host_verifications) %>%
+        mutate(verifications = gsub(pattern = "\\[|\\]", replacement = "", x = host_verifications)) %>%
+        mutate(verifications = gsub(pattern = "[']", replacement = "", x = verifications)) %>%
+        select(verifications) %>%
+        separate_rows(verifications, convert = T) %>%
+        mutate(verifications = ifelse(verifications=="","None",verifications)) %>%
+        group_by(verifications) %>%
+        summarise(appearances = n()) %>%
+        arrange(desc(appearances))
+    
+    amenities <- data %>%
+        distinct(amenities) %>%
+        mutate(amenities = gsub(pattern = "\\[|\\]", replacement = "", x = amenities)) %>%
+        mutate(amenities = gsub(pattern = '["]', replacement = "", x = amenities)) %>%
+        select(amenities) %>%
+        separate_rows(amenities, sep = ",\\s+") %>%
+        mutate(amenities = ifelse(amenities=="","None",amenities)) %>%
+        group_by(amenities) %>%
+        summarise(appearances = n()) %>%
+        arrange(desc(appearances))
+
+    write.csv(x = verifications, file = paste(city,"-top_verifications.csv", sep = ""))
+    
+    write.csv(x = amenities, file = paste(city,"-top_amenities.csv", sep = ""))
+}
+```
+

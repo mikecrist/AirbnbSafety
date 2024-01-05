@@ -36,10 +36,10 @@ Then navigate to http://127.0.0.1:5000/ on your browser, and the application wil
 
 ## Demo
 ![image](https://github.com/mikecrist/AirbnbSafety/assets/31662579/79f6c0f3-c38f-4010-90af-3ea3baa0c6ec)
-***User selects city and desired Airbnb features***
+*User selects city and desired Airbnb features*
 
 ![image](https://github.com/mikecrist/AirbnbSafety/assets/31662579/b747e77a-2833-47ad-98e5-730d17ccce22)
-***User is provided interactive map displaying heat map of crimes overlayed with Airbnb properties, filtered by the regression model price prediction for the given user inputs.***
+*User is provided interactive map displaying heat map of crimes overlayed with Airbnb properties, filtered by the regression model price prediction for the given user inputs.*
 
 ![image](https://github.com/mikecrist/AirbnbSafety/assets/31662579/3ef8ecb6-ffc2-4110-a169-264d98ff4719) <br>
-***Zoomed image displaying Airbnb property feature data that is displayed when a user clicks on a listing.***
+*Zoomed image displaying Airbnb property feature data that is displayed when a user clicks on a listing.*

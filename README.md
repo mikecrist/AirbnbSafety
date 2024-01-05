@@ -1,4 +1,4 @@
-# Airbnb Safety
+# Airbnb Safety Interactive Visualization
 This project provides an interactive map of Airbnb property listings overlayed with a heat map of neighborhood-specific crime risk.  Additionally, it provides a model to estimate Airbnb listing price based upon accommodations and local crime.
 
 **Project Report:** [Report](https://github.com/mikecrist/AirbnbSafety/blob/main/Report/Report_AirbnbSafety.pdf)

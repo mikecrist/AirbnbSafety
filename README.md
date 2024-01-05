@@ -12,6 +12,7 @@ This project was created for the Georgia Tech Master of Analytics program.<br>
 ## Table of Contents
 - [Environment Setup](#Environment-Setup)
 - [Running the Project](#Running-the-Project)
+- [Demo](#Demo)
 
 ## Environment Setup
 The below instructions are provided to set up your environment within Anaconda.
